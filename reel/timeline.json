@@ -1,0 +1,105 @@
+{
+  "title": "AI AD DESIGNER - 30s Instagram Reel Intro",
+  "identity": "AI AD DESIGNER",
+  "spec": {
+    "duration_seconds": 30.0,
+    "aspect_ratio": "9:16",
+    "resolution_min": "1080x1920",
+    "resolution_preferred": "2160x3840",
+    "fps_output": 30,
+    "fps_source_slowmo": 120,
+    "color_palette": ["obsidian black #050505", "pure white #FFFFFF", "titanium silver #C7CBD1", "champagne #E8D3A2", "electric blue accent #2F7BFF"],
+    "safe_margins_px_1080x1920": {"top": 250, "bottom": 420, "left": 72, "right": 72},
+    "banned_terms": ["Veylix", "Veylix Studio", "studio", "logo", "watermark"]
+  },
+  "shots": [
+    {
+      "id": 1, "name": "THE UNSTOPPABLE HOOK", "start": 0.0, "end": 2.0,
+      "text": ["IGNORED?"],
+      "visual": "Black frame. At 0.15s a razor-thin white light slices the screen; 3D black-titanium word IGNORED? punches toward lens and fractures into suspended fragments; freeze on impact; fragments become reflective product surfaces.",
+      "camera": "Aggressive push-in, lens distortion, directional motion blur, single white flash.",
+      "sound": "Metallic snap, sub-bass impact, explosive transient, short reverse riser, near-silence.",
+      "transition_out": "Fragments assemble into smartphone."
+    },
+    {
+      "id": 2, "name": "PREMIUM PRODUCT REVEAL", "start": 2.0, "end": 5.0,
+      "text": ["YOUR AD SHOULD STAND OUT."],
+      "visual": "Futuristic smartphone floating in black architectural space; narrow light beam travels over glass and metal.",
+      "camera": "Rapid orbit, dive to polished edge, speed ramp, shallow DOF, volumetric haze, subtle chromatic separation.",
+      "sound": "Smooth whoosh, glass beam shimmer, low pulse.",
+      "transition_out": "Phone rotates to lens; camera module becomes a portal."
+    },
+    {
+      "id": 3, "name": "LUXURY PRODUCT ADVERTISING", "start": 5.0, "end": 8.0,
+      "text": ["MAKE IT FEEL PREMIUM."],
+      "visual": "Luxury fragrance bottle on reflective black surface, droplets, mist, metallic ribbons, champagne caustics; slow-motion droplet impact creates a liquid-metal ripple.",
+      "camera": "Low-angle macro orbit, shallow DOF.",
+      "sound": "Glass chime, liquid impact, reversed metallic swell, deep pulse.",
+      "transition_out": "Ripple dissolves into reflective particles and mist."
+    },
+    {
+      "id": 4, "name": "FUTURISTIC BEAUTY & COSMETIC AD", "start": 8.0, "end": 11.0,
+      "text": ["BUILT TO CAPTURE ATTENTION."],
+      "visual": "Metallic skincare container emerges from luminous mist; liquid-chrome ribbons spiral into a halo and become translucent liquid sheets; pearl-white and champagne highlights.",
+      "camera": "Single continuous move through the ribbons.",
+      "sound": "Soft liquid swells, airy texture, subtle pulse.",
+      "transition_out": "A droplet expands until its reflection fills the frame."
+    },
+    {
+      "id": 5, "name": "HIGH-ENERGY BEVERAGE COMMERCIAL", "start": 11.0, "end": 14.0,
+      "text": ["NOT JUST VISUALS."],
+      "visual": "Unbranded premium metallic can bursts in among icy particles and splashes; condensation beads; circular liquid arc; ice fragments at multiple depths.",
+      "camera": "Fast 270-degree orbit against slow-motion can rotation; speed ramps; match cuts.",
+      "sound": "Liquid splash, ice crack, punchy whoosh, metallic impact, rhythmic percussion.",
+      "transition_out": "Circular liquid wave becomes a luminous UI ring."
+    },
+    {
+      "id": 6, "name": "SAAS, APP & DIGITAL PRODUCT ADVERTISING", "start": 14.0, "end": 17.0,
+      "text": ["STORY. STRATEGY. IMPACT."],
+      "visual": "Floating glass panels, clean app screens, modular UI cards, restrained dashboard charts; a rising graph becomes a pathway.",
+      "camera": "Fly-through between interface layers with parallax.",
+      "sound": "Digital ticks, interface clicks, soft synth pulses, rising tonal layer.",
+      "transition_out": "The graph pathway leads the camera forward."
+    },
+    {
+      "id": 7, "name": "ADVANCED MOTION GRAPHICS SHOWCASE", "start": 17.0, "end": 20.0,
+      "text": ["CREATIVE IDEAS.", "POWERFUL EXECUTION."],
+      "visual": "Massive procedural environment: thousands of lines forming a 3D wave, coordinated geometry, expanding rings, particle splines; black-and-white minimalism with electric-blue accents.",
+      "camera": "Dive through the geometry.",
+      "sound": "Geometric transformation hits, rising rhythm.",
+      "transition_out": "Geometry converges into a single luminous point."
+    },
+    {
+      "id": 8, "name": "THE TRANSFORMATION MOMENT", "start": 20.0, "end": 23.0,
+      "text": ["I TURN IDEAS", "INTO ADS."],
+      "visual": "Luminous point expands into a portal of miniature ad worlds (phone, fragrance, cosmetic, beverage, interface); at 22.0s fragments converge into a clean premium composition.",
+      "camera": "Single continuous motion-control path with selective speed ramps.",
+      "sound": "Synchronized transition hits, building pulse.",
+      "transition_out": "Dimensional type slides aside."
+    },
+    {
+      "id": 9, "name": "THE GROWTH MESSAGE", "start": 23.0, "end": 26.0,
+      "text": ["DESIGNED TO HELP BRANDS GROW."],
+      "visual": "Abstract glass structure; luminous line rises from the bottom generating geometric forms and expanding rings; gold-white highlights. No financial symbols, numbers, or statistics.",
+      "camera": "Elegant upward move.",
+      "sound": "Rising orchestral-electronic layer, layered impacts, controlled climax.",
+      "transition_out": "Environment collapses to black."
+    },
+    {
+      "id": 10, "name": "CREATOR IDENTITY REVEAL", "start": 26.0, "end": 28.0,
+      "text": ["AI AD DESIGNER", "Scroll-stopping visuals. Powerful storytelling."],
+      "visual": "Clean black; thin silver line sweeps across and becomes the baseline for the title. Subtle dimensional depth only.",
+      "camera": "Locked with micro push-in.",
+      "sound": "Most memorable musical moment resolving into a deep polished impact.",
+      "transition_out": "Title holds, then settles."
+    },
+    {
+      "id": 11, "name": "CLIENT-FOCUSED CTA", "start": 28.0, "end": 30.0,
+      "text": ["LET'S CREATE YOUR NEXT AD.", "DM ME TO START."],
+      "visual": "Black background, subtle silver light sweep, faint reflective floor, drifting particles. Final frame: AI AD DESIGNER + CTA only.",
+      "camera": "Static.",
+      "sound": "Clean resolution with a short polished tail.",
+      "transition_out": "Hold to end."
+    }
+  ]
+}

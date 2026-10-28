@@ -1,0 +1,12 @@
+shot,name,start_s,end_s,in_frame,out_frame,rec_in_tc,rec_out_tc,copy,transition_out
+1,THE UNSTOPPABLE HOOK,0.000,2.000,0,60,01:00:00:00,01:00:02:00,IGNORED?,Fragments assemble into smartphone.
+2,PREMIUM PRODUCT REVEAL,2.000,5.000,60,150,01:00:02:00,01:00:05:00,YOUR AD SHOULD STAND OUT.,Phone rotates to lens; camera module becomes a portal.
+3,LUXURY PRODUCT ADVERTISING,5.000,8.000,150,240,01:00:05:00,01:00:08:00,MAKE IT FEEL PREMIUM.,Ripple dissolves into reflective particles and mist.
+4,FUTURISTIC BEAUTY & COSMETIC AD,8.000,11.000,240,330,01:00:08:00,01:00:11:00,BUILT TO CAPTURE ATTENTION.,A droplet expands until its reflection fills the frame.
+5,HIGH-ENERGY BEVERAGE COMMERCIAL,11.000,14.000,330,420,01:00:11:00,01:00:14:00,NOT JUST VISUALS.,Circular liquid wave becomes a luminous UI ring.
+6,"SAAS, APP & DIGITAL PRODUCT ADVERTISING",14.000,17.000,420,510,01:00:14:00,01:00:17:00,STORY. STRATEGY. IMPACT.,The graph pathway leads the camera forward.
+7,ADVANCED MOTION GRAPHICS SHOWCASE,17.000,20.000,510,600,01:00:17:00,01:00:20:00,CREATIVE IDEAS. / POWERFUL EXECUTION.,Geometry converges into a single luminous point.
+8,THE TRANSFORMATION MOMENT,20.000,23.000,600,690,01:00:20:00,01:00:23:00,I TURN IDEAS / INTO ADS.,Dimensional type slides aside.
+9,THE GROWTH MESSAGE,23.000,26.000,690,780,01:00:23:00,01:00:26:00,DESIGNED TO HELP BRANDS GROW.,Environment collapses to black.
+10,CREATOR IDENTITY REVEAL,26.000,28.000,780,840,01:00:26:00,01:00:28:00,AI AD DESIGNER / Scroll-stopping visuals. Powerful storytelling.,"Title holds, then settles."
+11,CLIENT-FOCUSED CTA,28.000,30.000,840,900,01:00:28:00,01:00:30:00,LET'S CREATE YOUR NEXT AD. / DM ME TO START.,Hold to end.
