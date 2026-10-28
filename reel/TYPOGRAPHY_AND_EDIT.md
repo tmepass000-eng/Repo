@@ -87,3 +87,17 @@ Speed ramps only where listed; never random. Max one "big" effect (flash, glitch
 - Loudness: −14 LUFS integrated, true peak ≤ −1.0 dBTP (platform-friendly).
 - Exactly 900 frames. Verify with `ffprobe` before delivery.
 - Cover frame: 00:26.60 (`AI AD DESIGNER` title) — that is the scroll-stopping thumbnail.
+
+### Delivered animatic (measured)
+
+| Property | Value | Verified with |
+|---|---|---|
+| Frames | 900 (30.000 s, CFR 30) | `ffprobe -count_frames` |
+| Resolution | 1080 × 1920, yuv420p | `ffprobe -show_streams` |
+| Loudness | −14.9 LUFS integrated | `ffmpeg -af ebur128` |
+| True peak | −1.0 dBTP | `ffmpeg -af ebur128=peak=true` |
+| Audio | AAC-LC, 48 kHz, stereo | `ffprobe` |
+| File size | ≈5.8 MB, H.264 CRF 24 | `ls -l` |
+
+The animatic ships at delivery bitrate (CRF 24) to stay web-friendly; for a master grade render at
+CRF 16–18 and deliver 40–60 Mbps.

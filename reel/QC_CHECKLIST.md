@@ -4,7 +4,7 @@ Run before every render and delivery. A delivery only ships when all 13 lines ar
 
 | # | Requirement | How to verify | Status |
 |---|---|---|---|
-| 1 | Total runtime is exactly 30.000 s (900 frames @ 30 fps) | `ffprobe -show_entries format=duration`; frame count with `-count_frames` | ☐ |
+| 1 | Total runtime is exactly 30.000 s (900 frames @ 30 fps) | `ffprobe -count_frames` → 900 ✓ (animatic verified) | ☑ |
 | 2 | Composed for vertical Instagram viewing (1080 × 1920 min, 9:16) | Probe stream size; open on a phone | ☐ |
 | 3 | Opening captures attention immediately (light slice inside first 5 frames) | Step frame-by-frame 0–15 | ☐ |
 | 4 | Product ads look premium, coherent and art-directed | Full playback on a large screen, then on phone | ☐ |

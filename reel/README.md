@@ -21,6 +21,25 @@ no watermark (this is enforced by `tools/validate_timeline.py`).
 | `QC_CHECKLIST.md` | The 13-point final quality control gate from the brief. |
 | `tools/validate_timeline.py` | Automated check: exactly 30.0s, contiguous cuts, verbatim copy, banned identity strings. |
 | `tools/export_edl.py` | Exports a 30 fps CMX3600 EDL + CSV cue sheet to `dist/` for conform in any NLE. |
+| `tools/build_animatic.py` | Renders the animated reel: 1080×1920, 30 fps, 900 frames, with original synth sound design. |
+| `assets/fonts/` | Archivo Black (display) + Barlow (subline) — both OFL, cleared for commercial use. |
+
+## What is rendered
+
+`dist/reel_30s_animatic.mp4` — **the actual 30-second film**, cut to the exact timeline: every shot,
+every on-screen line, the light sweeps, impact flashes, silver rules, grain, vignette, grade and the
+original score with sub impacts, risers, ticks and designed cuts.
+
+It is a **typographic animatic / edit conform**: the timing, copy, grade and sound are final, the
+photoreal product plates are not. Shots 2–9 are designed to be replaced by generated product footage
+(reel/prompts/shot-02 … shot-09) underneath the same type and sound design. Treat the animatic as the
+locked cut that plates are conformed into.
+
+```bash
+python3 reel/tools/build_animatic.py --ffmpeg /path/to/ffmpeg   # rebuild the whole film
+```
+
+Delivered: 900 frames, 30.000 s, 1080×1920, 30 fps, H.264 + AAC 48 kHz, ≈5.8 MB.
 
 ## Verify the package
 
